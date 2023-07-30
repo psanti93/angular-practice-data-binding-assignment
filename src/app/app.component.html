@@ -1,15 +1,19 @@
 <div class="container">
   <div class="row">
     <div class="col-md-12">
-      <app-gamecontrol></app-gamecontrol>
+      <app-gamecontrol
+       (oddNumberCreated)="oddNumberGenerated($event)"
+       (evenNumberCreated)="evenNumberGenerated($event)"
+      ></app-gamecontrol>
     </div>
     </div>
     <div class="row">
       <div class="col-md-4">
-      <app-even></app-even>
+      <!-- TODO : Input from the app component into even and ood -->
+      <app-even [even] ="evenNumber"></app-even>
       </div>
       <div class="col-md-4">
-        <app-odd></app-odd>
+        <app-odd [odd] = "oddNumber" ></app-odd>
       </div>
     </div>
 
