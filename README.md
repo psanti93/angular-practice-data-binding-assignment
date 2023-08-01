@@ -7,4 +7,4 @@
 5. When stopping the game, no more events should get ommited (clearInterval(ref)) []
 6. A new Odd component should get created for every odd number emitted, the same should happen for even component []
 7. Simply output Odd - Number or Even - Number in the two components. [x]
-8. Style the element (e.g. paragraph) holding your output text differnetly in both components []
+8. Style the element (e.g. paragraph) holding your output text differnetly in both components [x]

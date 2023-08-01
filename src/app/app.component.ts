@@ -7,15 +7,15 @@ import { Component, Input } from '@angular/core';
 })
 export class AppComponent {
  // TODO we need to pass this as inputs to the odd and even components
- evenNumber = 0;
- oddNumber = 0;
+ evenNumber = 0
+ oddNumber = 0
 
-  oddNumberGenerated(oddData: {odd:number}){
-     this.oddNumber = oddData.odd;
+  oddNumberGenerated(odd:number){
+     this.oddNumber = odd;
   }
 
-  evenNumberGenerated(evenData: {even: number}){
-    this.evenNumber = evenData.even;
+  evenNumberGenerated(even: number){
+    this.evenNumber= even
   }
 }
 
